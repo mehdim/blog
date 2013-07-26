@@ -47,9 +47,9 @@ var blogConfig = {
 		}
 	],
 	"sidebar": [
+		"follow.html",
 		"tags.html",
-		"forkme.html",
-		"follow.html"
+		"forkme.html"
 	],
 	"sortArticle": "desc",
 	"limitPerPage": 5,
