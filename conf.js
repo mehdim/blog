@@ -36,16 +36,7 @@ var blogConfig = {
 			"job": "Co-founder"
 		}
 	],
-	"menu": [
-		{
-			"url": "#/",
-			"text": "Home"
-		},
-		{
-			"url": "#/pages/me",
-			"text": "About me"
-		}
-	],
+	"menu": false,
 	"sidebar": [
 		"follow.html",
 		"tags.html",
