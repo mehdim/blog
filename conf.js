@@ -56,13 +56,13 @@ var blogConfig = {
 	"articles": [
 		{
 			"id": "announcing-oauthd",
-			"title": "OAuth.io opensourced!",
+			"title": "oauthd: OAuth.io opensourced!",
 			"summary": "We are thrilled to announce the official realease of oauthd: the open source version of OAuth.io. Thousands of developers have already registered to OAuth.io for 3 weeks and many of you requested an open source version of OAuth.io. So we listened. And today, it is real.",
 			"img": {
 				"src": "",
 				"pos": "center"
 			},
-			"date": "7-14-2013",
+			"date": "7-25-2013",
 			"author": "thyb",
 			"format": "markdown",
 			"tags": ["opensource", "oauthd"]
