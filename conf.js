@@ -1,7 +1,7 @@
 var blogConfig = {
 	"adminMode": "false", //put true for development (add features for admin)
 
-	"name":"The OAuth.io blog",
+	"name":"OAuth.io blog",
 	"description":"A better web, with a better OAuth",
 	"email": "team@oauth.io",
 	"logo": "assets/logo.png",
@@ -45,6 +45,19 @@ var blogConfig = {
 	"sortArticle": "desc",
 	"limitPerPage": 5,
 	"articles": [
+		{
+			"id": "update-08-08-2013",
+			"title": "Some news on OAuth.io",
+			"summary": "New providers added on oauth.io with some new exciting features: the wishlist + bug fixed",
+			"img": {
+				"src": "",
+				"pos": "center"
+			},
+			"date": "8-8-2013",
+			"author": "thyb",
+			"format": "html",
+			"tags": ["news", "provider"]
+		},
 		{
 			"id": "announcing-oauthd",
 			"title": "oauthd: OAuth.io opensourced!",
