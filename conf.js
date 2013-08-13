@@ -46,17 +46,17 @@ var blogConfig = {
 	"limitPerPage": 5,
 	"articles": [
 		{
-			"id": "update-08-08-2013",
+			"id": "update-wishlist-new-providers-13-08-2013",
 			"title": "Some news on OAuth.io",
-			"summary": "New providers added on oauth.io with some new exciting features: the wishlist + bug fixed",
+			"summary": "New providers added on oauth.io: Salesforce, Heroku, VK... with a new exciting feature: the wishlist",
 			"img": {
 				"src": "",
 				"pos": "center"
 			},
-			"date": "8-8-2013",
+			"date": "8-13-2013",
 			"author": "thyb",
 			"format": "html",
-			"tags": ["news", "provider"]
+			"tags": ["feature", "provider"]
 		},
 		{
 			"id": "announcing-oauthd",
