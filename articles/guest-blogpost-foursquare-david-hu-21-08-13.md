@@ -1,4 +1,4 @@
-_(guest logpost from David Hu, Developer Advocate for Foursquare)_
+_(guest blogpost from David Hu, Developer Advocate for Foursquare)_
 
 As a Developer Advocate for Foursquare, part of my job that I enjoy the most is helping other developers build great location-based apps using our API. After doing this for a while though, you’ll start to notice similar kinds of questions keep popping up: “Am I allowed to do this to stay within terms of your API?”, “How can I get my rate limits increased?”, “How the f@#$ does OAuth work?”
 
