@@ -33,26 +33,28 @@
     </script>
 </head>
 <body>
-  <div ng-include src="template.header"></div>
-  <div ng-hide="blog.menu == false" class="container" style="margin-bottom">
-    <ul class="nav nav-pills">
-      <li ng-class="{active:'#' + menuSelected == m.url}" ng-repeat="m in blog.menu">
-        <a ng-href="{{m.url}}">{{m.text}}</a>
-      </li>
-    </ul>
-    <hr />
-  </div>
-  <div class="container">
-    <div class="row">
-      <div ng-class="{'col-lg-8':blog.sidebar != false, 'col-lg-12':blog.sidebar == false, 'col': true}">
-        <div ng-view></div>
-      </div>
-      <div class="col col-lg-4" ng-hide="blog.sidebar == false || blog.sidebar == []" id="sidebar">
-        <div ng-repeat="s in blog.sidebar">
-          <div ng-include="s"></div>
-          <hr />
+  <div style="width: 950px; margin: 0 auto">
+    <div ng-include src="template.header"></div>
+    <div ng-hide="blog.menu == false" class="container" style="margin-bottom">
+      <ul class="nav nav-pills">
+        <li ng-class="{active:'#' + menuSelected == m.url}" ng-repeat="m in blog.menu">
+          <a ng-href="{{m.url}}">{{m.text}}</a>
+        </li>
+      </ul>
+      <hr />
+    </div>
+    <div class="container">
+      <div class="row">
+        <div ng-class="{'col-lg-8':blog.sidebar != false, 'col-lg-12':blog.sidebar == false, 'col': true}">
+          <div ng-view></div>
         </div>
-      </div>
+        <div class="col col-lg-4" ng-hide="blog.sidebar == false || blog.sidebar == []" id="sidebar">
+          <div ng-repeat="s in blog.sidebar">
+            <div ng-include="s"></div>
+            <hr />
+          </div>
+        </div>
+    </div>
   </div>
 </body>
 </html>
