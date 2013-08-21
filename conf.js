@@ -46,6 +46,19 @@ var blogConfig = {
 	"limitPerPage": 5,
 	"articles": [
 		{
+			"id": "guest-blogpost-foursquare-david-hu-21-08-13",
+			"title": "Reducing the OAuth complexity: Foursquarecut demo",
+			"summary": "As a Developer Advocate for Foursquare, part of my job that I enjoy the most is helping other developers build great location-based apps using our API. After doing this for a while though, you’ll start to notice similar kinds of questions keep popping up: “Am I allowed to do this to stay within terms of your API?”, “How can I get my rate limits increased?”, “How the f@#$ does OAuth work?” ",
+			"img": {
+				"src": "",
+				"pos": "center"
+			},
+			"date": "08-21-2013",
+			"author": "octopi",
+			"format": "markdown",
+			"tags": ["guest"]
+		},
+		{
 			"id": "update-wishlist-new-providers-13-08-2013",
 			"title": "Some news on OAuth.io",
 			"summary": "New providers added on oauth.io: Salesforce, Heroku, VK... with a new exciting feature: the wishlist",
