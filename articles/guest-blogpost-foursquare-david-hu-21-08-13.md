@@ -1,3 +1,5 @@
+_(guest logpost from David Hu, Developer Advocate for Foursquare)_
+
 As a Developer Advocate for Foursquare, part of my job that I enjoy the most is helping other developers build great location-based apps using our API. After doing this for a while though, you’ll start to notice similar kinds of questions keep popping up: “Am I allowed to do this to stay within terms of your API?”, “How can I get my rate limits increased?”, “How the f@#$ does OAuth work?”
 
 To this last question, there are certainly [many](https://github.com/Mashape/mashape-oauth) [helper](https://github.com/simplegeo/python-oauth2) [libraries](https://github.com/simplegeo/python-oauth2) out there that make life a little easier for developers working with OAuth, but most still require wrangling with redirects, codes, tokens, and a server-side component. There are those cases when you want a simpler solution, especially if you’re just working on a little hack or weekend project. This is where [OAuth.io](OAuth.io) comes in, which enables simple, serverless OAuth to be possible—go through the entire flow right in client-side browser code.
