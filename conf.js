@@ -46,6 +46,15 @@ var blogConfig = {
 	"limitPerPage": 5,
 	"articles": [
 		{
+			"id": "oauth-report-22-09-2013",
+			"title": "The OAuth Report #1 : Social logins",
+			"summary": "<p>Login registration forms are known to not be efficient enough, since many people provide false data, forget their login information for the site or simply decline to register in the first place.</p><p>According to Wikipedia , Social connect is a single sign-on process that uses existing login information from an existing social networking service such as Facebook, Twitter or Google+ to sign into a third-party website in lieu of creating a new login account specifically for that website. It is designed to simplify logins for end users as well as provide more and more reliable user information to web developers and do not have to store passwords.</p><p>Social login is a gateway for authentication and authorization...</p>",
+			"date": "09-22-2013",
+			"author": "medjaw",
+			"format": "html",
+			"tags": ["oauth", "report"]
+		},
+		{
 			"id": "guest-blogpost-foursquare-david-hu-21-08-13",
 			"title": "Reducing the OAuth complexity: Foursquarecut demo",
 			"summary": "<em>(guest logpost from David Hu, Developer Advocate for Foursquare)</em><br />As a Developer Advocate for Foursquare, part of my job that I enjoy the most is helping other developers build great location-based apps using our API. After doing this for a while though, you’ll start to notice similar kinds of questions keep popping up: “Am I allowed to do this to stay within terms of your API?”, “How can I get my rate limits increased?”, “How the f@#$ does OAuth work?” ",
