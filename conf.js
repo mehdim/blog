@@ -48,7 +48,7 @@ var blogConfig = {
 		{
 			"id": "oauth-report-22-09-2013",
 			"title": "The OAuth Report #1 : Social logins",
-			"summary": "On early-stage apps, Facebook connect permissions are accepted only by 70,94% of visitors, Google+ connect ones by 88,81%, Linkedin connect 57,53%, Github connect 49.77% and Twitter connect 60,22%...",
+			"summary": "On early-stage apps, Facebook connect permissions are accepted only by 70,94% of visitors, Google+ connect ones by 88,81%, Linkedin connect 57,53%, Github connect 49.77% and Twitter connect 60,22%",
 			"date": "09-22-2013",
 			"author": "medjaw",
 			"format": "html",
