@@ -48,7 +48,7 @@ var blogConfig = {
 		{
 			"id": "oauth-report-22-09-2013",
 			"title": "The OAuth Report #1 : Social logins",
-			"summary": "<p>Login registration forms are known to not be efficient enough, since many people provide false data, forget their login information for the site or simply decline to register in the first place.</p><p>According to Wikipedia , Social connect is a single sign-on process that uses existing login information from an existing social networking service such as Facebook, Twitter or Google+ to sign into a third-party website in lieu of creating a new login account specifically for that website. It is designed to simplify logins for end users as well as provide more and more reliable user information to web developers and do not have to store passwords.</p><p>Social login is a gateway for authentication and authorization...</p>",
+			"summary": "On early-stage apps, Facebook connect permissions are accepted only by 70,94% of visitors, Google+ connect ones by 88,81%, Linkedin connect 57,53%, Github connect 49.77% and Twitter connect 60,22%...",
 			"date": "09-22-2013",
 			"author": "medjaw",
 			"format": "html",
